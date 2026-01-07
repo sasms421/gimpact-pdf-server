@@ -1,0 +1,16 @@
+# G-IMPACT PDF Generator Server
+# Python 3.9+
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# PDF Generation
+reportlab==4.0.7
+matplotlib==3.8.2
+numpy==1.26.2
+
+# Utilities
+pydantic==2.5.2
+python-dotenv==1.0.0
